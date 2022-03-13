@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="retosemana2.css">
+    <title>Document</title>
+    <style> 
+        body { font-family: Arial; font-style: "bold"; font-size: "12"; background-color: white; box-sizing: border-box;}
+        form {
+                background-color: rgb(214, 214, 214);
+                padding-left: 20px;
+                
+                padding-top: 10px;
+                padding-bottom: 20px;
+                font-size: 10px;
+                margin: 0 auto;
+                width: 300px;
+        }
+        input, textarea {
+        
+        }
+        .field {
+        border: solid 1px #ccc;
+        padding: 10px;
+        width:260px;
+        }
+        .field.focus {
+        
+        }
+        .center-content {
+        
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h2> Sign up</h2>
+
+        <label> First name  </label>  <br>
+        <input type="text" class="field" required> <br>
+        <br>
+
+        <label> Age </label>  <br>
+        <input type="number" min="18" max="120" class="field" required>
+        <br>
+        <br>
+
+        <label> Income </label>  <br>
+        <input type="number" min="50" max="1000000" class="field" required>
+        <br>
+        <br>
+
+        <label> More Info </label>  <br>
+        <textarea class="field" required> </textarea>
+        <br>
+        <br>
+        <label> Gender </label> <br> 
+
+        <label> Male 
+            <input name="sex" type="radio" required > 
+        </label>
+        <label> Female
+            <input name="sex" type="radio" >
+        </label>
+        <label> Trans
+            <input name="sex" type="radio" >
+        </label>
+        <br>
+        <br>
+
+        <label> Plan</label>
+        <Br>
+        <select name="" class="field"> 
+           
+            <option value="" required=""> Select plan </option>" 
+            <br>
+
+            <option value="1" required>  Basic </option>" 
+            <option value="1"> Premium </option>" 
+          
+         </select>
+        <br><br>
+     
+        <input type="checkbox"
+        <label>Subscribe to Newsletters</label>
+        </label>
+        
+         <br> <br>
+        <label class="center-content"></p>
+         <input type="submit" class="btn btn-blue" value="Update">
+        </label>
+        </form>
+
+       
+        
+
+</body>
+</html>

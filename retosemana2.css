@@ -1,0 +1,17 @@
+.btn{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px
+    text-decoration:none;
+    
+}
+.btn-blue{
+    color: white;
+    background-color: rgb(77, 77, 252);
+}
+.btn-blue:hover {
+    background-color: #0759d4;
+}
+.btn-blue:active{
+    background-color: aqua;
+}
